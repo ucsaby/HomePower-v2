@@ -13,8 +13,13 @@ body {
   background-color: var(--primary-color);
 }
 
+.products {
+  margin-top: 20px;
+}
 .flex-row {
   display: flex;
+  flex: 0 1 (25% - 20px);
+  justify-content: center;
 }
 
 .flex-col {
